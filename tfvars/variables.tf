@@ -1,25 +1,26 @@
-variable  "instances" {
-  type        = map
+variable "instances" {
+  type =  map
 }
 
 variable "domain_name" {
-  default = "daws81s.online"
+  default = "avk07.online"
 }
 
 variable "zone_id" {
-  default = "Z09912121MS725XSKH1TG"
+  default = "Z02098132D03V1WYMJGX6"
 }
 
-variable "common_tags" {
-    default = {
-        Project = "expense"
-        Terraform = "true"
-    }
+variable  "common_tags" {
+  default = {
+    project = "expense"
+    terraform = true
+  }
 }
 
 variable "tags" {
-    type = map
+  type = map
 }
 
 variable "environment" {
+  
 }

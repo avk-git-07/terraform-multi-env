@@ -1,4 +1,4 @@
-bucket = "81s-remote-state-prod"
-key    = "tfvars-demo-prod"
+bucket = "avk07-s3-remote-state"
+key = "avk07-key-prod"
 region = "us-east-1"
-dynamodb_table = "81s-locking-prod"
+dynamodb_table = "avk-dynamodb-table"
